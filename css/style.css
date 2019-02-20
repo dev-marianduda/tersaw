@@ -1,0 +1,260 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    }
+    
+    body,
+    .oferta,
+    .cennik {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    
+    .oferta,
+    .cennik {
+        margin: 40px auto;
+    }
+    /* nawigacja */
+    
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        top: 0;
+        border-bottom: 1px solid rgb(9, 113, 178);
+        width: 100%;
+        text-decoration-line: none;
+        z-index: 1;
+        height: 65px;
+    }
+    
+    .menu li {
+        display: inline-block;
+        list-style: none;
+        text-align: left;
+    }
+    
+    .left {
+        padding-left: 5%;
+        line-height: 50px;
+        width: 30%;
+        text-align: left;
+    }
+    
+    .left img {
+        position: absolute;
+        top: 3px;
+        left: 17%;
+        line-height: 100%;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .left a {
+        border-radius: 10px;
+        /* border: 2px solid rgba(20, 133, 204); */
+        font-size: 18px;
+        background: rgb(255, 0, 0);
+        background: linear-gradient(54deg, rgba(255, 55, 0, 1) 0%, rgba(255, 194, 25, 1) 100%);
+        color: white;
+    }
+    
+    .left a:hover {
+        background: rgb(255, 0, 0);
+        background: linear-gradient(54deg, rgba(255, 0, 0, 1) 0%, rgba(255, 206, 25, 1) 100%);
+        transition: 1s linear;
+    }
+    
+    .left i {
+        padding: 0 8px;
+    }
+    
+    .right {
+        padding-right: 5%;
+        text-transform: uppercase;
+    }
+    
+    .right a {
+        font-size: 16px;
+        color: #000;
+    }
+    
+    .menu a {
+        font-family: 'Open Sans';
+        font-weight: bold;
+        /* color: rgb(12, 12, 12,); */
+        line-height: 50px;
+        text-decoration-line: none;
+        padding: 15px 20px;
+    }
+    
+    .right a:hover {
+        border-bottom: 2px solid rgba(20, 133, 204);
+        /* background-color: rgba(0, 0, 0, 0.2); */
+        color: red;
+    }
+    /* banner */
+    
+    header {
+        position: relative;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    
+    header img {
+        margin-top: 10%;
+        width: 100%;
+    }
+    
+    .welcome {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        /* width: 50%; */
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    header h1 {
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #333;
+    }
+    
+    header h2 {
+        font-size: 30px;
+        /* color: rgb(9, 113, 178); */
+        color: #333;
+    }
+    /* oferta */
+    
+    .oferta {
+        position: relative;
+        background-color: rgb(245, 245, 245, .5);
+        width: 100%;
+        /* height: 80vh; */
+        text-align: center;
+        text-decoration-line: none;
+    }
+    
+    .oferta h2 {
+        font-size: 30px;
+        padding: 30px;
+    }
+    
+    .oferta .columns {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: space-around;
+        /* width: 30%; */
+        /* height: 100px; */
+    }
+    
+    .oferta .columns div {
+        width: 43%;
+        height: 35%;
+        margin: 50px;
+        background-color: white;
+        padding: 20px;
+        border: 1px solid rgb(9, 113, 178);
+        border-radius: 20px;
+    }
+    
+    .oferta .columns div h3 {
+        color: rgb(9, 113, 178);
+        padding: 10px;
+    }
+    
+    .cennik {
+        position: relative;
+        text-align: center;
+        background-color: rgb(245, 245, 245, .5);
+        width: 100%;
+        /* height: 120vh; */
+        text-decoration-line: none;
+    }
+    
+    .cennik h2 {
+        font-size: 30px;
+        padding: 30px;
+    }
+    
+    .cennik .columns {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: space-around;
+        /* width: 30%; */
+        /* height: 100px; */
+    }
+    
+    .cennik .columns div {
+        width: 43%;
+        height: 35%;
+        margin: 50px;
+        background-color: white;
+        padding: 20px;
+        border: 1px solid rgb(9, 113, 178);
+        border-radius: 20px;
+    }
+    
+    .cennik .columns div h3 {
+        color: rgb(9, 113, 178);
+        padding: 10px;
+    }
+    
+    .contact {
+        position: relative;
+        text-align: center;
+        background-color: rgb(245, 245, 245, .5);
+        width: 100%;
+        /* height: 120vh; */
+        text-decoration-line: none;
+    }
+    
+    .contact a {
+        text-decoration-line: none;
+        color: black;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    .contact i {
+        padding: 0 8px;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    footer li {
+        display: inline-block;
+    }
+    
+    footer a {
+        text-decoration-line: none;
+        color: #333;
+    }
+    
+    footer p {
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        color: #333;
+    }
