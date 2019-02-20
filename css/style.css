@@ -134,6 +134,45 @@
         /* color: rgb(9, 113, 178); */
         color: #333;
     }
+    /* info */
+    
+    header .info {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: space-around;
+        /* width: 30%; */
+        /* height: 100px; */
+    }
+    
+    header .info div {
+        width: 30%;
+        height: 35%;
+        /* margin: 10px; */
+        background-color: white;
+        padding: 20px;
+        border: 1px solid rgb(9, 113, 178);
+        border-radius: 20px;
+        line-height: 180%;
+    }
+    
+    header .info div h3 {
+        color: rgb(9, 113, 178);
+        padding: 10px;
+    }
+    
+    header .info a {
+        text-decoration-line: none;
+        color: black;
+        padding: 10px;
+        /* margin: 20px; */
+    }
+    
+    header .info i {
+        padding: 0 8px;
+    }
     /* oferta */
     
     .oferta {
