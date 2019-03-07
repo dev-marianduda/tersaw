@@ -159,7 +159,7 @@
     }
     
     .info .columns div {
-        min-width: 30%;
+        width: 30%;
         height: 35%;
         margin: 10px 8px;
         background-color: white;
@@ -326,3 +326,252 @@
         font-size: 14px;
         color: #333;
     }
+    /* media mobile Portrait and  Landscape */
+    @media (max-width: 1025px) and (orientation: Portrait) {
+    .left {
+        padding-left: 3%;
+    }
+        .right {
+        padding-right: 1%;
+    }
+    
+        .info .columns div {
+        width: 47%;
+    }
+    
+    .oferta .columns {
+        justify-content: center;
+    }
+    .oferta .columns div {
+        width: 45%;
+        margin: 24px;
+    }
+     .cennik .columns {
+         justify-content: center;
+     }
+
+     .cennik .columns div {
+         width: 45%;
+         margin: 24px;
+     }
+     .oferta h2, .cennik h2{
+         font-size: 40px;
+     }
+     p {
+         font-size: 18px;
+         line-height: 160%;
+     }
+}
+
+ @media (max-width: 768px) and (orientation: Portrait) {
+    /* menu burger */
+    .welcome {
+        left:4%;
+    }
+    .welcome h1 {
+        font-size: 40px;
+    }
+    .welcome h2 {
+         font-size: 26px;
+    }
+
+    .left {
+         padding-left: 3%;
+     }
+
+     .right {
+         padding-right: 1%;
+     }
+
+     .info .columns div {
+         width: 92%;
+     }
+     .info a {
+         font-size: 22px;
+     }
+
+     .oferta .columns {
+         justify-content: center;
+     }
+
+     .oferta .columns div {
+         width: 92%;
+         margin: 24px;
+     }
+
+     .cennik .columns {
+         justify-content: center;
+     }
+
+     .cennik .columns div {
+         width: 92%;
+         margin: 24px;
+     }
+
+     .oferta h2,
+     .cennik h2 {
+         font-size: 44px;
+     }
+
+     p {
+         font-size: 22px;
+         line-height: 160%;
+     }
+ }
+
+
+
+
+@media (max-width: 1024px) and (orientation: Landscape) {
+   .right {
+       padding-right: 2%;
+   }
+    .info .columns div {
+        width: 45%;
+    }
+
+    .oferta .columns {
+        justify-content: center;
+    }
+
+    .oferta .columns div {
+        width: 45%;
+        margin: 16px;
+    }
+
+    .cennik .columns {
+        justify-content: center;
+    }
+
+    .cennik .columns div {
+        width: 45%;
+        margin: 16px;
+    }
+
+    .oferta h2,
+    .cennik h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 160%;
+    }
+
+}
+@media (max-width: 812px) and (orientation: Landscape) {
+    .welcome {
+        left: 4%;
+    }
+
+    .welcome h1 {
+        font-size: 40px;
+    }
+
+    .welcome h2 {
+        font-size: 26px;
+    }
+
+    .left {
+        padding-left: 2%;
+    }
+    .left a {
+        font-size: 16px;
+    }
+
+    .right {
+        padding-right: 1%;
+    }
+    .menu a{
+        padding: 15px 8px;
+    }
+
+    .info .columns div {
+        width: 48%;
+    }
+
+    .oferta .columns {
+        justify-content: center;
+    }
+
+    .oferta .columns div {
+        width: 45%;
+        margin: 14px;
+    }
+
+    .cennik .columns {
+        justify-content: center;
+    }
+
+    .cennik .columns div {
+        width: 45%;
+        margin: 14px;
+    }
+
+    .oferta h2,
+    .cennik h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 160%;
+    }
+}
+
+@media (max-width: 736px) and (orientation: Landscape) {
+   
+    .welcome h1 {
+        font-size: 38px;
+    }
+
+    .welcome h2 {
+        font-size: 24px;
+    }
+    .left {
+        padding-left: 2%;
+    }
+
+
+    .left a {
+        font-size: 15px;
+    }
+
+
+    .menu a {
+        padding: 15px 4px;
+    }
+
+    .info .columns div {
+        width: 95%;
+    }
+
+    
+
+    .oferta .columns div {
+        width: 95%;
+        
+    }
+
+    .cennik .columns {
+        justify-content: center;
+    }
+
+    .cennik .columns div {
+        width: 95%;
+     
+    }
+
+}
+
+@media (max-width: 640px) and (orientation: Landscape) {
+
+    .welcome h1 {
+        font-size: 32px;
+    }
+
+    .welcome h2 {
+        font-size: 22px;
+    }
+
+}
