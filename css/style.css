@@ -539,9 +539,33 @@
         padding: 18px;
     }
 }
+@media (max-width: 1440px) {
+   
+.info a {
+    font-size: 16px;
+}
+.info .columns div h3 {
+    font-size: 19px;
+}
+.cennik .columns div,
+.oferta .columns div {
+    width: 45%;
+    margin: 16px;
+}
 
-
-
+@media (max-width: 1260px) {
+    .info a {
+        font-size: 16px;
+    }
+    .info .columns div h3 {
+        font-size: 18px;
+    }
+    .cennik .columns div,
+    .oferta .columns div {
+        width: 45%;
+        margin: 16px;
+    }
+}
 
 @media (max-width: 1024px) and (orientation: Landscape) {
    .right {
