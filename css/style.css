@@ -418,6 +418,125 @@
          line-height: 160%;
      }
  }
+@media (max-width: 414px) and (orientation: Portrait) {
+
+    /* menu burger */
+    .menu li.left {
+        width: 70%;
+    }
+    .menu li.right{
+        display: none;
+    }
+     .left a {
+         font-size: 14px;
+     }
+
+     .menu a {
+         padding: 15px 5px;
+     }
+
+    .welcome h1 {
+        font-size: 28px;
+    }
+
+    .welcome h2 {
+        font-size: 20px;
+    }
+
+    header img {
+        margin-top: 23%;
+    }
+
+    .info .columns div {
+        width: 95%;
+    }
+
+    .info a {
+        font-size: 18px;
+    }
+
+    .oferta .columns div {
+        width: 95%;
+        margin: 12px;
+    }
+
+    .cennik .columns div {
+        width: 92%;
+        margin: 12px;
+    }
+
+    .oferta h2,
+    .cennik h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 160%;
+    }
+}
+@media (max-width: 414px) and (orientation: Portrait) {
+
+    /* menu burger */
+    
+    .left a {
+        font-size: 14px;
+    }
+    .menu a {
+        padding: 15px 5px;
+    }
+
+    .welcome h1 {
+        font-size: 25px;
+    }
+
+    .welcome h2 {
+        font-size: 18px;
+    }
+
+    .info a {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .oferta h2,
+    .cennik h2 {
+        font-size: 36px;
+        padding: 18px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 160%;
+    }
+}
+@media (max-width: 320px) and (orientation: Portrait) {
+
+    /* menu burger */
+
+    .left a {
+        font-size: 12px;
+    }
+
+       .welcome h1 {
+        font-size: 22px;
+    }
+
+    .welcome h2 {
+        font-size: 16px;
+    }
+
+    .info a {
+        font-size: 12px;
+        
+    }
+
+    .oferta h2,
+    .cennik h2 {
+        font-size: 32px;
+        padding: 18px;
+    }
+}
 
 
 
