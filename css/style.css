@@ -388,6 +388,7 @@
      }
      .info a {
          font-size: 22px;
+         text-decoration: none;
      }
 
      .oferta .columns {
@@ -484,6 +485,7 @@
     }
     .menu a {
         padding: 15px 5px;
+        
     }
 
     .welcome h1 {
@@ -603,6 +605,7 @@
     }
     .menu a{
         padding: 15px 8px;
+        text-decoration: none;
     }
 
     .info .columns div {
