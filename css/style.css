@@ -557,7 +557,9 @@
      }
  }
 @media (max-width: 414px) and (orientation: Portrait) {
-
+    .burger {
+    display: none;
+    }
     /* menu burger */
     .menu li.left {
         width: 75%;
