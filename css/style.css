@@ -560,7 +560,7 @@
 
     /* menu burger */
     .menu li.left {
-        width: 70%;
+        width: 75%;
     }
     .menu li.right{
         display: none;
@@ -619,7 +619,7 @@
     
 
     .left a {
-        font-size: 11px;
+        font-size: 13px;
     }
     .menu a {
         padding: 15px 5px;
@@ -655,7 +655,7 @@
     /* menu burger */
 
     .left a {
-        font-size: 11px;
+        font-size: 12px;
     }
 
        .welcome h1 {
