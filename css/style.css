@@ -556,6 +556,23 @@
          line-height: 160%;
      }
  }
+ @media (max-width: 600px) and (orientation: Portrait) {
+     .burger {
+         display: block;
+     }
+     .right a {
+         display: none;
+     }
+     .left {
+         width: 90%;
+     }
+     .left a {
+         font-size: 20px;
+     }
+     header img {
+         margin-top: 20%;
+     }
+
 @media (max-width: 414px) and (orientation: Portrait) {
     .burger {
     display: block;
