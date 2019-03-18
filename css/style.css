@@ -452,13 +452,15 @@
     }
 
     @media (max-width: 1025px) and (orientation: Portrait) {
-    
+    .menu a {
+        padding: 15px 8px;
+    }
     
     .left {
         padding-left: 3%;
     }
     .left a {
-        font-size: 17px;
+        font-size: 15px;
     }
     .right {
         padding-right: 1%;
@@ -580,7 +582,7 @@
     }
 
     header img {
-        margin-top: 23%;
+        margin-top: 35%;
     }
 
     .info .columns div {
@@ -588,7 +590,7 @@
     }
 
     .info a {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .oferta .columns div {
@@ -617,7 +619,7 @@
     
 
     .left a {
-        font-size: 13px;
+        font-size: 11px;
     }
     .menu a {
         padding: 15px 5px;
@@ -634,7 +636,7 @@
 
     .info a {
         font-size: 15px;
-        margin: 5px;
+        margin: 3px;
     }
 
     .oferta h2,
@@ -653,7 +655,7 @@
     /* menu burger */
 
     .left a {
-        font-size: 12px;
+        font-size: 11px;
     }
 
        .welcome h1 {
