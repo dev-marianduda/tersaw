@@ -836,7 +836,16 @@
 }
 
 @media (max-width: 640px) and (orientation: Landscape) {
+    .burger {
+        display: block;
+    }
+    .right a {
+        display: none;
+    }
 
+    .left {
+        width: 70%;
+    }
     .welcome h1 {
         font-size: 32px;
     }
@@ -844,5 +853,4 @@
     .welcome h2 {
         font-size: 22px;
     }
-
 }
