@@ -499,7 +499,7 @@
 
  @media (max-width: 768px) and (orientation: Portrait) {
     .burger {
-        display: block;
+        display: none;
     }
     /* menu burger */
     .welcome {
