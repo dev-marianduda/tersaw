@@ -327,20 +327,21 @@
     
     .oferta .columns div h3 {
         color: rgb(9, 113, 178);
+        text-align: left;
         padding: 10px;
     }
      .oferta .columns div p {
          line-height: 1.8;
-         text-align: left;
-         padding: 0 10px;
+         text-align: justify; 
+         padding: 0 30px;
      }
     .oferta .columns div ul {
-        text-align: left;
+        text-align: justify;
         line-height: 1.8;
-        padding: 10px;
-        margin: 0 50px
+        padding: 0 30px;
+        margin: 0 20px
     }
-    
+        
     .cennik {
         position: relative;
         text-align: center;
@@ -388,6 +389,10 @@
         width: 100%;
         /* height: 120vh; */
         text-decoration-line: none;
+    }
+    .contact div {
+        line-height: 1.8;
+        margin: 20px auto;
     }
     
     .contact a {
