@@ -330,6 +330,11 @@
         text-align: left;
         padding: 10px;
     }
+    .cennik .columns div img {
+        max-width: 90%;
+        max-height: 360px;
+        
+    }
      .oferta .columns div p {
          line-height: 1.8;
          text-align: justify; 
