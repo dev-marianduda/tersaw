@@ -444,9 +444,11 @@
     .info .columns div h3 {
         font-size: 19px;
     }
-
-    .cennik .columns div,
     .oferta .columns div {
+        width: 100%;
+        margin: 16px;
+    }
+    .cennik .columns div {
         width: 45%;
         margin: 16px;
     }
@@ -455,18 +457,31 @@
         .menu a {
             padding: 15px 15px;
         }
-        .info a {
+        .left a {
             font-size: 16px;
+        } 
+        .info a {
+            font-size: 14px;
+            padding: 8px;
+            margin: 7px;
         }
 
         .info .columns div h3 {
             font-size: 18px;
         }
-
-        .cennik .columns div,
         .oferta .columns div {
+            width: 100%;
+            margin: 16px;
+        }
+        .cennik .columns div {
             width: 45%;
             margin: 16px;
+        }
+    }
+    @media (max-width 1090px) and (orientation: Portrait) {
+        .info a {
+            font-size: 13px;
+            
         }
     }
 
