@@ -460,10 +460,13 @@
         .left a {
             font-size: 16px;
         } 
-        .info a {
+        /* .info a {
             font-size: 14px;
             padding: 8px;
             margin: 7px;
+        } */
+        .info .columns div {
+            width: 47%;
         }
 
         .info .columns div h3 {
@@ -478,12 +481,18 @@
             margin: 16px;
         }
     }
-    @media (max-width 1090px) and (orientation: Portrait) {
-        .info a {
-            font-size: 13px;
-            
+     @media (max-width: 770px) {
+         .info .columns div {
+             width: 100%;
+         }
+         
+     }
+    @media (max-width: 1090px) and (orientation: Landscape) {
+        .info .columns div {
+            width: 47%;
         }
     }
+   
 
     @media (max-width: 1025px) and (orientation: Portrait) {
     .menu a {
@@ -511,7 +520,7 @@
         justify-content: center;
     }
     .oferta .columns div {
-        width: 45%;
+        width: 100%;
         margin: 24px;
     }
      .cennik .columns {
@@ -519,7 +528,7 @@
      }
 
      .cennik .columns div {
-         width: 45%;
+         width: 42%;
          margin: 24px;
      }
      .oferta h2, .cennik h2{
@@ -540,7 +549,7 @@
         left:4%;
     }
     .welcome h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
     .welcome h2 {
          font-size: 26px;
@@ -570,6 +579,12 @@
          width: 92%;
          margin: 24px;
      }
+     .oferta .columns div p {
+         font-size: 16px;
+     }
+     .oferta .columns div ul {
+         margin: 0px;
+     }
 
      .cennik .columns {
          justify-content: center;
@@ -579,6 +594,7 @@
          width: 92%;
          margin: 24px;
      }
+     
 
      .oferta h2,
      .cennik h2 {
@@ -594,6 +610,13 @@
      .burger {
          display: block;
      }
+     .welcome h1 {
+         font-size: 30px;
+     }
+
+     .welcome h2 {
+         font-size: 24px;
+     }
      .right a {
          display: none;
      }
@@ -601,6 +624,9 @@
          width: 90%;
      }
      .left a {
+         font-size: 14px;
+     }
+     .info a {
          font-size: 18px;
      }
      header img {
