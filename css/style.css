@@ -627,12 +627,40 @@
          font-size: 14px;
      }
      .info a {
-         font-size: 18px;
+         font-size: 16px;
      }
      header img {
-         margin-top: 20%;
+         margin-top: 33%;
      }
-
+@media (max-width: 520px) and (orientation: Portrait) {
+    .left a {
+        font-size: 13px;
+    }
+    
+    .welcome h1 {
+        font-size: 28px;
+    }
+    .welcome h2 {
+        font-size: 24px;
+    }
+    header img {
+        margin-top: 26%;
+    }
+    p {
+        font-size: 16px;
+    }
+    .oferta .columns div,
+    .cennik .columns div {
+        width: 100%;
+        margin: 10px;
+    }
+    .oferta .columns div p {
+        padding: 0 10px;
+    }
+    .oferta .columns div ul {
+        padding: 0 10px;
+    }
+}
 @media (max-width: 414px) and (orientation: Portrait) {
     .burger {
     display: block;
