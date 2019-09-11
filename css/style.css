@@ -370,7 +370,7 @@
     
     .cennik .columns div {
         width: 43%;
-        height: 35%;
+        min-height: 700px;
         margin: 50px;
         background-color: white;
         padding: 20px;
@@ -385,6 +385,7 @@
     .cennik .columns div p {
         line-height: 1.8;
         text-align: justify;
+        font-size: 16px;
     }
     .cennik .columns div img {
         max-width: 90%;
