@@ -119,11 +119,11 @@
        display: none;
    }
    i.fa-bars{
-       color: rgb(65, 65, 65);
+       color: rgba(121, 121, 121, 0.7);
    }
 
    i.fa-angle-up {
-       color: rgb(65, 65, 65);
+       color: rgba(121, 121, 121, 0.7);
    }
 
    aside {
