@@ -969,3 +969,49 @@
         font-size: 22px;
     }
 }
+@media print {
+    footer,
+    nav,
+    iframe,
+    .menu,
+    .mobile,
+    .burger,
+    .rigth,
+    .off {
+        display: none !important;
+    }
+    body {
+        font: 14px Georgia, "Times New Roman", Times, serif;
+        line-height: 1.2;
+        background: #fff !important;
+        color: #000 ;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    ul,
+    ol {
+        list-style: square;
+        margin-left: 18pt;
+        margin-bottom: 20pt;
+    }
+    li{
+        font-size: 14px;
+    }
+    p {
+        font-size: 14px;
+    }
+    img {
+        page-break-inside: avoid;
+        page-break-after: avoid;
+    }
+}
