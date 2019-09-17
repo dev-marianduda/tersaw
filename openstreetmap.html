@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+  <style>
+    html,
+    body {
+      text-align: center;
+    }
+
+    #mapid { height: 700px; }
+  </style>
+  </head>
+
+  <body>
+
+    <!-- <h1>OpenStreetMap, Google Maps alternative using Leaflet</h1> -->
+    <div id="mapid"></div>
+    <script>
+    var mymap = L.map('mapid').setView([51.144841, 23.457231], 18);
+
+    var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 19,
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap);
+  
+var marker = L.marker([51.144842, 23.457085]).addTo(mymap);
+var marker1 = L.marker([51.144802, 23.457815]).addTo(mymap);
+
+
+marker.bindPopup("<b>Poradnia Neurologiczna Teresa Serwacka</b><br>ul. Rejowiecka 117").openPopup();
+marker1.bindPopup("<b>Gabinet prywatny | Pracownia EEG</b><br>ul. Rejowiecka 119").openPopup();
+
+
+    
+    </script>
+</body>
+</html>

@@ -415,6 +415,13 @@
     .contact i {
         padding: 0 8px;
     }
+    #mapid {
+        height: 500px;
+    }
+    .openstreet {
+        width: 100%;
+        height: 700px;
+    }
     
     footer {
         display: flex;
