@@ -576,6 +576,7 @@
      }
      .contact .columns div {
          margin: 24px;
+         width: 95%;
      }
      .gabinet_one img {
          max-width: 100%;
@@ -764,6 +765,7 @@
     }
     .contact .columns div {
         margin: 12px;
+        width: 95%;
     }
 }
 @media (max-width: 375px) and (orientation: Portrait) {
@@ -877,6 +879,7 @@
     }
     .contact .columns div {
         margin: 16px;
+        width: 95%;
     }
 
 }
@@ -941,6 +944,7 @@
     }
     .contact .columns div {
         margin: 14px;
+        width: 95%;
     }
 }
 
