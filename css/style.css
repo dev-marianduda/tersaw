@@ -424,6 +424,7 @@
     }
     .gabinet_one {
         background-color: white;
+        margin: 20px;
         padding: 20px;
         border: 1px solid rgb(9, 113, 178);
         border-radius: 20px;
@@ -572,6 +573,9 @@
      p {
          font-size: 18px;
          line-height: 160%;
+     }
+     .contact .columns {
+         margin: 24px;
      }
      .gabinet_one img {
          max-width: 100%;
@@ -758,6 +762,9 @@
         font-size: 18px;
         line-height: 160%;
     }
+    .contact .columns {
+        margin: 12px;
+    }
 }
 @media (max-width: 375px) and (orientation: Portrait) {
 
@@ -868,6 +875,9 @@
         font-size: 18px;
         line-height: 160%;
     }
+    .contact .columns {
+        margin: 16px;
+    }
 
 }
 @media (max-width: 812px) and (orientation: Landscape) {
@@ -928,6 +938,9 @@
     p {
         font-size: 18px;
         line-height: 160%;
+    }
+    .contact .columns {
+        margin: 14px;
     }
 }
 
