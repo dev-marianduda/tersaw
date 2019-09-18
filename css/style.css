@@ -582,6 +582,10 @@
      .gabinet_one img {
          max-width: 100%;
      }
+     .contact {
+         width: 90%;
+         margin: 0 auto;
+     }
 }
 
  @media (max-width: 768px) and (orientation: Portrait) {
