@@ -16,7 +16,7 @@
     
 
     #mapid { height: 700px; 
-    font-size: 16px;}
+    font-size: 14px;}
 
      @media (max-width: 768px) and (orientation: Portrait) {
        #mapid { max-height: 500px; 
@@ -33,16 +33,16 @@
     var mymap = L.map('mapid').setView([51.144841, 23.457231], 18);
 
     var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	maxZoom: 19,
+	maxZoom: 22,
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(mymap);
   
-var marker = L.marker([51.144842, 23.457085]).addTo(mymap);
-var marker1 = L.marker([51.144802, 23.457815]).addTo(mymap);
+var marker = L.marker([51.14494, 23.45691]).addTo(mymap);
+var marker1 = L.marker([51.14478, 23.45785]).addTo(mymap);
 
 
-marker.bindPopup("<b>Poradnia Neurologiczna Teresa Serwacka</b><br>ul. Rejowiecka 117").openPopup();
-marker1.bindPopup("<b>Gabinet prywatny | Pracownia EEG</b><br>ul. Rejowiecka 119").openPopup();
+marker.bindPopup("<b>NEURO-MED Poradnia Neurologiczna</b><br>ul. Rejowiecka 117 (biały budynek)").openPopup();
+marker1.bindPopup("<b>Prywatny Gabinet Neurologiczny | Pracownia EEG</b><br>ul. Rejowiecka 119 (brązowy budynek)").openPopup();
 
 
     
