@@ -437,6 +437,9 @@
     .gabinet_one h3 {
         font-size: 16px;
     }
+    .gabinet_one img {
+        max-width: 100%;
+    }
     
     footer {
         display: flex;
