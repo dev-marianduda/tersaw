@@ -637,7 +637,7 @@
         }
 
         .oferta .columns div {
-            width: 45%;
+            width: 95%;
             margin: 14px;
         }
 
@@ -647,6 +647,7 @@
 
         .cennik .columns div {
             width: 45%;
+            min-height: 830px;
             margin: 14px;
         }
 
@@ -712,6 +713,7 @@
 
         .cennik .columns div {
             width: 95%;
+            min-height: 600px;
 
         }
 
