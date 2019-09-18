@@ -430,7 +430,8 @@
         border-radius: 20px;
     }
     .gabinet_one h1 {
-        font-size: 20px;
+        font-size: 24px;
+        color: rgb(9, 113, 178);
     }
     .gabinet_one h2 {
         font-size: 18px;
@@ -894,6 +895,10 @@
      }
      header img {
          margin-top: 33%;
+     }
+     .gabinet_one h1 {
+         font-size: 20px;
+         
      }
 @media (max-width: 520px) and (orientation: Portrait) {
     .left a {
