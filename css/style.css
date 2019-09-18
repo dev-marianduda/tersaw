@@ -574,7 +574,7 @@
          font-size: 18px;
          line-height: 160%;
      }
-     .contact .columns {
+     .contact .columns div {
          margin: 24px;
      }
      .gabinet_one img {
@@ -762,7 +762,7 @@
         font-size: 18px;
         line-height: 160%;
     }
-    .contact .columns {
+    .contact .columns div {
         margin: 12px;
     }
 }
@@ -875,7 +875,7 @@
         font-size: 18px;
         line-height: 160%;
     }
-    .contact .columns {
+    .contact .columns div {
         margin: 16px;
     }
 
@@ -939,7 +939,7 @@
         font-size: 18px;
         line-height: 160%;
     }
-    .contact .columns {
+    .contact .columns div {
         margin: 14px;
     }
 }
