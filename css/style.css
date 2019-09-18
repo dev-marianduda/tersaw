@@ -472,9 +472,18 @@
         .burger {
             display: none;
         }
+    @media (max-width: 1800px) {
+        .contact {
+            width: 97%;
+            margin: 0 auto;
+        }
+    }
     @media (max-width: 1533px) {
         .info .columns div {
             min-height: 435px
+        }
+        .contact {
+            width: 95%;
         }
     }
 @media (max-width: 1440px) {
