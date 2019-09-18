@@ -573,6 +573,9 @@
          font-size: 18px;
          line-height: 160%;
      }
+     .gabinet_one img {
+         max-width: 100%;
+     }
 }
 
  @media (max-width: 768px) and (orientation: Portrait) {
@@ -640,6 +643,7 @@
          font-size: 22px;
          line-height: 160%;
      }
+     
  }
  @media (max-width: 600px) and (orientation: Portrait) {
      .burger {
@@ -971,6 +975,9 @@
     .cennik .columns div {
         width: 95%;
      
+    }
+    .gabinet_one img {
+        max-width: 100%;
     }
 
 }
