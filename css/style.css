@@ -38,7 +38,6 @@
     .menu li {
         display: inline-block;
         list-style: none;
-        /* text-align: left; */
     }
     
     .left {
@@ -58,8 +57,7 @@
     }
     
     .left a {
-        border-radius: 10px;
-        /* border: 2px solid rgba(20, 133, 204); */
+        border-radius: 10px;        
         font-size: 18px;
         background: rgb(255, 0, 0);
         background: linear-gradient(54deg, rgba(255, 55, 0, 1) 0%, rgba(255, 194, 25, 1) 100%);
@@ -93,16 +91,14 @@
     
     .menu a {
         font-family: 'Open Sans';
-        font-weight: bold;
-        /* color: rgb(12, 12, 12,); */
+        font-weight: bold;        
         line-height: 50px;
         text-decoration-line: none;
         padding: 15px 20px;
     }
     
     .right a:hover {
-        border-bottom: 2px solid rgba(20, 133, 204);
-        /* background-color: rgba(0, 0, 0, 0.2); */
+        border-bottom: 2px solid rgba(20, 133, 204);        
         color: red;
     }
     /* burger */
@@ -137,8 +133,7 @@
        top: 0;
        right: 0;
        height: 60px;
-       transition: .3s;
-       /* border-bottom: 1px solid rgb(9, 113, 178); */
+       transition: .3s;       
    }
 
    aside.off {
@@ -163,15 +158,12 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    /* display: inline-block; */
-    list-style: none;
-    /* text-align: left; */
+    list-style: none;    
 }
 
 .mobile a {
     font-family: 'Open Sans';
-    font-weight: bold;
-        /* color: rgb(12, 12, 12,); */
+    font-weight: bold;    
     line-height: 25px;
     text-decoration-line: none;
     padding: 15px 20px;
@@ -183,8 +175,7 @@
 }
 
 .mobile a:hover {
-    border-bottom: 2px solid rgba(20, 133, 204);
-    /* background-color: rgba(0, 0, 0, 0.2); */
+    border-bottom: 2px solid rgba(20, 133, 204);    
     color: red;
 }
 .mobile.off {
@@ -206,8 +197,7 @@
     .welcome {
         position: absolute;
         top: 10%;
-        left: 10%;
-        /* width: 50%; */
+        left: 10%;        
         text-align: center;
         text-transform: uppercase;
     }
@@ -219,16 +209,14 @@
     }
     
     header h2 {
-        font-size: 30px;
-        /* color: rgb(9, 113, 178); */
+        font-size: 30px;        
         color: #333;
     }
     /* info */
     
     .info {
         position: relative;
-        width: 100%;
-        /* height: 80vh; */
+        width: 100%;       
         text-align: center;
         text-decoration-line: none;
         margin-top: 20px;
@@ -240,9 +228,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         flex-grow: 1;
-        justify-content: center;
-        /* width: 30%; */
-        /* height: 100px; */
+        justify-content: center;        
     }
     
     .info .columns div {
@@ -258,7 +244,6 @@
     }
     
     .info .columns div h3 {
-        /* color: rgb(9, 113, 178); */
         font-size: 22px;
         color: #333;
         padding: 10px;
@@ -270,11 +255,8 @@
         padding: 10px;
         margin: 10px;
         border-radius: 15px;
-        /* border: 2px solid rgba(20, 133, 204); */
         font-size: 18px;
-        background-color: rgb(9, 113, 178);
-        /* background: rgb(255, 0, 0);
-        background: linear-gradient(54deg, rgba(255, 55, 0, 1) 0%, rgba(255, 194, 25, 1) 100%); */
+        background-color: rgb(9, 113, 178);        
         color: white;
     }
     
@@ -345,10 +327,8 @@
         
     .cennik {
         position: relative;
-        text-align: center;
-        /* background-color: rgb(245, 245, 245, .5); */
-        width: 100%;
-        /* height: 120vh; */
+        text-align: center;        
+        width: 100%;        
         text-decoration-line: none;
     }
     
@@ -363,9 +343,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         flex-grow: 1;
-        justify-content: space-around;
-        /* width: 30%; */
-        /* height: 100px; */
+        justify-content: space-around;        
     }
     
     .cennik .columns div {
@@ -394,10 +372,8 @@
     }
     .contact {
         position: relative;
-        text-align: center;
-        /* background-color: rgb(245, 245, 245, .5); */
-        width: 100%;
-        /* height: 120vh; */
+        text-align: center;        
+        width: 100%;        
         text-decoration-line: none;
     }
     .contact div {
@@ -511,11 +487,7 @@
         .left a {
             font-size: 16px;
         } 
-        /* .info a {
-            font-size: 14px;
-            padding: 8px;
-            margin: 7px;
-        } */
+        
         .info .columns div {
             width: 47%;
         }
@@ -547,7 +519,6 @@
     @media (max-width: 1024px) and (orientation: Landscape) {
         .left a {
             font-size: 15px;
-
         }
 
         .right {
